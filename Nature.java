@@ -13,7 +13,7 @@ public class Nature {
 
         Eagle eyeCherry = new Eagle("Eye Cherry");
         // TODO : uncomment the following code in order to test it
-        /*
+        
         eyeCherry.takeOff();
         eyeCherry.ascend(120);
         eyeCherry.ascend(30);
@@ -22,6 +22,8 @@ public class Nature {
         eyeCherry.land();
         eyeCherry.descend(9);
         eyeCherry.land();
-        */
+        
+        Bird myBird = pingou;
+        System.out.println("\nTest: " + myBird.sing());
     }
 }

@@ -7,4 +7,5 @@ public interface Swim {
     int swimUp(int meters);
 
     void getOut();
+    
 }
